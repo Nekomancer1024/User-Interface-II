@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /* border:1px solid grey;  */
 }
 /*General Styles*/
 html{
@@ -138,16 +138,42 @@ div img{
 
 /*Pojects Section Styles*/
 #projects{
-    padding: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+    padding: 10rem;
+}
+#projects .bg-img{
+    background-image: url('https://picsum.photos/800');
+    margin: 0 4%;
+    background-color: #8600b3;
+    padding: 10rem;
+}
+#projects p{
+    margin: 1% 0;
+    padding: 0;
 }
 
 /*About Section Styles*/
 #about{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    padding: 10rem;
+}
+#about .bg-img{
+    background-image: url('https://picsum.photos/800');
+    margin: 0 4%;
+    background-color: #8600b3;
+    padding: 10rem;
+}
+#about p{
+    margin: 1% 0;
+    padding: 0;
 }
 
 /*Footer Styles*/
